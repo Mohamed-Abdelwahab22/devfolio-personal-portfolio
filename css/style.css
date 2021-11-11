@@ -1,0 +1,900 @@
+
+
+body{
+    
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar{
+    transition: padding 0.5s , background-color 0.5s;
+}
+
+
+.mainColor{
+    color: #0062D3 !important;
+}
+
+.homeBG{
+    background: linear-gradient( #00000094 , #000000a8 ), url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.morgan{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+/* .morgan::after{
+    position: absolute;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    top: 100%;
+    left: 35%;
+    margin-top: 20px;
+    content: "";
+    animation: motion 10s infinite;
+}
+
+@keyframes motion{
+    1%{content: "D";}
+    2%{content: "De";}
+    3%{content: "Des";}
+    4%{content: "Desi";}
+    5%{content: "Desin";}
+    6%{content: "Designe";}
+    7%{content: "Designer";}
+    8%{content: "Designer";}
+    9%{content: "Designer";}
+    10%{content: "Designer";}
+    11%{content: "Designer";}
+    12%{content: "Designer";}
+    13%{content: "Designer";}
+    14%{content: "Designe";}
+    15%{content: "Design";}
+    16%{content: "Desig";}
+    17%{content: "Desi";}
+    18%{content: "Des";}
+    19%{content: "De";}
+    20%{content: "Dev";}
+    21%{content: "Deve";}
+    22%{content: "Devel";}
+    23%{content: "Develo";}
+    24%{content: "Develop";}
+    25%{content: "Develope";}
+    26%{content: "Developer";}
+    27%{content: "Developer";}
+    28%{content: "Developer";}
+    29%{content: "Developer";}
+    30%{content: "Developer";}
+    31%{content: "Developer";}
+    32%{content: "Developer";}
+    33%{content: "Develope";}
+    34%{content: "Develop";}
+    35%{content: "Develo";}
+    36%{content: "Devel";}
+    37%{content: "Deve";}
+    38%{content: "Dev";}
+    39%{content: "De";}
+    40%{content: "D";}
+    41%{content: "";}
+    42%{content: "F";}
+    43%{content: "Fr";}
+    45%{content: " Fre";}
+    46%{content: "Free";}
+    47%{content: "Freel";}
+    48%{content: "Freela";}
+    49%{content: "Freelan";}
+    50%{content: "Freelanc";}
+    51%{content: "Freelance";}
+    52%{content: "Freelancer";}
+    53%{content: "Freelancer";}
+    54%{content: "Freelancer";}    
+    55%{content: "Freelancer";}
+    56%{content: "Freelancer";}
+    57%{content: "Freelancer";}
+    58%{content: "Freelancer";}
+    59%{content: " Freelancer";}
+    60%{content: "Freelance";}
+    61%{content: "Freelanc";}
+    62%{content: "Freelan";}
+    63%{content: "Freela";}
+    64%{content: "Freel";}
+    65%{content: "Free";}
+    66%{content: "Fre";}
+    67%{content: "F";}
+    68%{content: "";}
+    69%{content: "P";}
+    70%{content: "Ph";}
+    71%{content: "Pho";}
+    72%{content: "Phot";}
+    73%{content: "Photo";}
+    74%{content: "Photog";}
+    75%{content: "Photogr";}
+    76%{content: "Photogra";}
+    77%{content: "Photograp";}
+    78%{content: "Photograph";}
+    79%{content: "Photograph";}
+    80%{content: "Photographe";}
+    81%{content: "Photographer";}
+    82%{content: "Photographer";}
+    83%{content: "Photographer";}
+    84%{content: "Photographe";}
+    85%{content: "Photograph";}
+    86%{content: "Photograp";}
+    87%{content: "Photogra";}
+    88%{content: "Photogr";}
+    89%{content: "Photog";}
+    90%{content: "Photo";}
+    91%{content: "Phot";}
+    92%{content: "Pho";}
+    93%{content: "Ph";}
+    94%{content: "P";}
+    100%{content: "";}
+}
+ */
+
+.skillsFont{
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin:25px 0px
+}
+
+.box{
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+
+
+.second h2{
+    font-family: 'Roboto', sans-serif;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #1e1e1e;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.second h2::after{
+    position: absolute;
+    left: 0%;
+    top: 115%;
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: rgb(30, 108, 255);
+}
+
+
+
+
+.head h1{
+    font-family: 'Roboto', sans-serif;
+    line-height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+.head h6{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4e4e;
+    position: relative;
+}
+
+.head h6::after{
+    position: absolute;
+    left: 48%;
+    top: 100%;
+    content: "";
+    width: 4%;
+    height: 5px;
+    background-color: rgb(30, 108, 255);
+    margin-top: 20px;
+}
+
+.web div{
+    background-color: white;
+    border-radius: 6%;
+}
+
+.web div i{
+    border: 10px solid rgb(30, 108, 255);
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 20px;
+    transition: color 0.5s , background-color 0.5s , border 0.5s;
+}
+
+.web div h2{
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+.web div p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+
+.web div:hover i{
+    color: white;
+    background-color: rgb(30, 108, 255);
+    border: 10px solid rgba(255, 255, 255, 0.548);
+}
+
+.section3{
+    background: linear-gradient( rgba(30, 109, 255, 0.678) , rgba(30, 109, 255, 0.678)) , url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+
+.works i{
+    padding: 20px;
+    border: 10px solid rgba(255, 255, 255, 0.548);
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.works .workUp{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 55px;
+    position: relative;
+}
+
+.works .workUp::before{
+    position: absolute;
+    content: "450";
+    bottom: 85%;
+    left: 39%;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    animation: count1 2s ;
+}
+
+@keyframes count1{
+    0%{content: "";}
+    1%{content: "5";}
+    5%{content: "10";}
+    10%{content: "20";}
+    15%{content: "30";}
+    8%{content: "40";}
+    10%{content: "50";}
+    12%{content: "60";}
+    14%{content: "70";}
+    16%{content: "80";}
+    18%{content: "90";}
+    20%{content: "100";}
+    24%{content: "110";}
+    26%{content: "120";}
+    28%{content: "130";}
+    30%{content: "140";}
+    32%{content: "150";}
+    33%{content: "160";}
+    34%{content: "170";}
+    35%{content: "180";}
+    36%{content: "190";}
+    37%{content: "200";}
+    38%{content: "210";}
+    40%{content: "220";}
+    42%{content: "230";}
+    44%{content: "240";}
+    46%{content: "250";}
+    48%{content: "260";}
+    50%{content: "270";}
+    52%{content: "280";}
+    54%{content: "290";}
+    56%{content: "300";}
+    58%{content: "310";}
+    60%{content: "320";}
+    62%{content: "330";}
+    64%{content: "340";}
+    66%{content: "350";}
+    68%{content: "360";}
+    70%{content: "370";}
+    72%{content: "380";}
+    74%{content: "390";}
+    76%{content: "400";}
+    78%{content: "410";}
+    80%{content: "420";}
+    82%{content: "430";}
+    84%{content: "440";}
+    86%{content: "450";}
+    88%{content: "450";}
+    90%{content: "450";}
+    92%{content: "450";}
+    94%{content: "450";}
+    100%{content: "450";}
+
+}
+
+.works .yearsUp{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 55px;
+    position: relative;
+}
+
+.works .yearsUp::before{
+    position: absolute;
+    content: "25";
+    bottom: 85%;
+    left: 43%;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    animation: count2 1s ;
+}
+
+@keyframes count2 {
+    1%{content: "";}
+    2%{content: "1";}
+    10%{content: "2";}
+    15%{content: "3";}
+    20%{content: "4";}
+    25%{content: "5";}
+    30%{content: "6";}
+    35%{content: "7";}
+    40%{content: "8";}
+    45%{content: "9";}
+    50%{content: "11";}
+    55%{content: "12";}
+    60%{content: "13";}
+    65%{content: "14";}
+    70%{content: "15";}
+    75%{content: "16";}
+    80%{content: "17";}
+    82%{content: "18";}
+    84%{content: "19";}
+    86%{content: "20";}
+    88%{content: "21";}
+    90%{content: "22";}
+    92%{content: "23";}
+    98%{content: "24";}
+    100%{content: "25";}
+}
+
+.works .clientsUp{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 55px;
+    position: relative;
+}
+
+.works .clientsUp::before{
+    position: absolute;
+    content: "550";
+    bottom: 85%;
+    left: 40%;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    animation: count3 3s ;
+}
+
+@keyframes count3{
+    0%{content: "";}
+    1%{content: "5";}
+    5%{content: "10";}
+    10%{content: "20";}
+    15%{content: "30";}
+    8%{content: "40";}
+    10%{content: "50";}
+    12%{content: "60";}
+    14%{content: "70";}
+    16%{content: "80";}
+    18%{content: "90";}
+    20%{content: "100";}
+    24%{content: "110";}
+    26%{content: "120";}
+    28%{content: "130";}
+    30%{content: "140";}
+    32%{content: "150";}
+    33%{content: "160";}
+    34%{content: "170";}
+    35%{content: "180";}
+    36%{content: "190";}
+    37%{content: "200";}
+    38%{content: "210";}
+    40%{content: "220";}
+    42%{content: "230";}
+    44%{content: "240";}
+    46%{content: "250";}
+    48%{content: "260";}
+    50%{content: "270";}
+    52%{content: "280";}
+    54%{content: "290";}
+    56%{content: "300";}
+    58%{content: "310";}
+    60%{content: "320";}
+    62%{content: "330";}
+    64%{content: "340";}
+    66%{content: "350";}
+    68%{content: "360";}
+    70%{content: "370";}
+    72%{content: "380";}
+    74%{content: "390";}
+    75%{content: "400";}
+    76%{content: "410";}
+    77%{content: "420";}
+    78%{content: "430";}
+    79%{content: "440";}
+    80%{content: "450";}
+    81%{content: "460";}
+    82%{content: "470";}
+    85%{content: "480";}
+    88%{content: "490";}
+    90%{content: "500";}
+    92%{content: "510";}
+    93%{content: "520";}
+    95%{content: "530";}
+    98%{content: "540";}
+    100%{content: "550";}
+}
+
+
+.works .awardUp{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 55px;
+    position: relative;
+}
+
+.works .awardUp::before{
+    position: absolute;
+    content: "45";
+    bottom: 85%;
+    left: 43%;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    animation: count4 1.5s ;
+}
+
+@keyframes count4 {
+    1%{content: "";}
+    2%{content: "1";}
+    10%{content: "2";}
+    15%{content: "3";}
+    20%{content: "4";}
+    25%{content: "5";}
+    30%{content: "6";}
+    35%{content: "7";}
+    40%{content: "8";}
+    45%{content: "9";}
+    50%{content: "11";}
+    55%{content: "12";}
+    60%{content: "13";}
+    65%{content: "14";}
+    70%{content: "15";}
+    72%{content: "16";}
+    73%{content: "17";}
+    74%{content: "18";}
+    75%{content: "19";}
+    76%{content: "20";}
+    77%{content: "21";}
+    78%{content: "22";}
+    79%{content: "23";}
+    80%{content: "24";}
+    81%{content: "25";}
+    82%{content: "27";}
+    83%{content: "29";}
+    84%{content: "30";}
+    85%{content: "31";}
+    86%{content: "32";}
+    87%{content: "33";}
+    88%{content: "34";}
+    89%{content: "35";}
+    90%{content: "36";}
+    91%{content: "37";}
+    92%{content: "38";}
+    93%{content: "39";}
+    94%{content: "40";}
+    95%{content: "41";}
+    97%{content: "42";}
+    98%{content: "43";}
+    99%{content: "44";}
+    100%{content: "45";}
+}
+
+.part1 .pic img{
+    transition: transform 1s;
+}
+
+
+.part1:hover .pic img{
+    transform: scale(1.3);
+}
+
+
+.part1 div{
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+
+.part1 div h3{
+    font-family: 'Roboto', sans-serif;
+    line-height: 23px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #1e1e1e;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.part1 div p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #0078ff;
+    padding-left: 15px;
+}
+
+.part1 div p small{
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+
+.part1 div .icon{
+    text-align: center !important;
+}
+
+
+.part1 div .icon i{
+    color: #0078ff;
+    border: 2px solid #0078ff;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 0;
+    padding: 10px;
+}
+
+
+
+.sliderBg{
+    background: linear-gradient( rgba(30, 109, 255, 0.678) , rgba(30, 109, 255, 0.678)) , url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 100px 0px;
+}
+
+.sliderSection{
+    height: 65vh;
+}
+
+
+.carousel-indicators .btnRound{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+
+
+.footerImg{
+    max-width: 10%;
+}
+
+
+
+.card-body h5 a{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-size: 21px;
+    font-weight: 500;
+    color:black;
+}
+
+.card-body p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#4e4e4e;
+}
+
+.travel{
+    background-color: rgb(30, 109, 255);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 13px;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.cardContent{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+
+.contactBg{
+    background: linear-gradient( rgba(30, 109, 255, 0.678) , rgba(30, 109, 255, 0.678)) , url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+    padding: 50px 0px;
+}
+
+.contactBg form{
+    margin-bottom: 4rem;
+}
+
+.contactBg form input{
+    margin: 10px 0px;
+    height: 10%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+}
+
+
+.contactBg form textarea{
+    margin: 10px 0px;
+    height: 30%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.contactBg form h2{
+    font-family: 'Roboto', sans-serif;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+    color:#1e1e1e;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.contactBg form h2::after{
+    position: absolute;
+    left: 0%;
+    top: 115%;
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: rgb(30, 108, 255);
+}
+
+.formBtn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formBtn button{
+    padding: 10px 25px;
+    
+}
+
+.contactBg .touch h2{
+    font-family: 'Roboto', sans-serif;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+    color:#1e1e1e;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.contactBg .touch h2::after{
+    position: absolute;
+    left: 0%;
+    top: 115%;
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: rgb(30, 108, 255);
+}
+
+.contactBg .touch p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    color:#4e4e4e;
+}
+
+.contactBg .touch h6{
+    font-family: 'Roboto', sans-serif;
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4e4e4e;
+}
+
+.lastBox{
+    background-color: white;
+    height: auto;
+    padding: 60px 30px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #0062D3;
+}
+
+
+@media screen and (max-width:600px) {
+    section .morgan h2::after{
+        position: absolute;
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 600;
+        top: 100%;
+        left: 10%;
+        margin-top: 20px;
+        content: "";
+        animation: motion 10s infinite;
+    }
+
+    .works .workUp::before{
+        position: absolute;
+        content: "450";
+        bottom: 85%;
+        left: 43%;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 400;
+        animation: count1 2s ;
+    }
+
+    .works .yearsUp::before{
+        position: absolute;
+        content: "25";
+        bottom: 85%;
+        left: 45%;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 400;
+        animation: count2 1s ;
+    }
+
+    .works .clientsUp::before{
+        position: absolute;
+        content: "550";
+        bottom: 85%;
+        left: 44%;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 400;
+        animation: count3 3s ;
+    }
+
+    .works .awardUp::before{
+        position: absolute;
+        content: "45";
+        bottom: 85%;
+        left: 45%;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 400;
+        animation: count4 1.5s ;
+    }
+
+    .part1 div .icon{
+        text-align: right !important;
+    }
+
+}
+
+#loading{
+    z-index: 10000000;
+}
+
+
+.spinner {
+    margin: 100px auto;
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
